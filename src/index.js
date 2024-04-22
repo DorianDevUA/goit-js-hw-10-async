@@ -76,8 +76,8 @@ async function onChangeSelect(evt) {
 
     Notiflix.Loading.remove();
     Notiflix.Report.failure(
-      `Помилка отримання даних: ${error.code}`,
-      `${error.name}: ${error.message}`,
+      `Oops... Error!`,
+      `Something went wrong! Try reloading the page!`,
       'Okay'
     );
   }
